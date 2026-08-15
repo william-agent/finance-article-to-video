@@ -188,4 +188,4 @@ HyperFrames vs Remotion 的選型傾向：HyperFrames（HTML、無建置步驟�
 - HyperFrames 原始碼已研究（v0.7.109）；**渲染管線在本機未實測**
 - cmnews 爬蟲已驗證可行（抓取層而已）
 - 本機無 GPU（無 NVIDIA 驅動/裝置）→ 本地 ComfyUI 線不可行
-- 整體狀態：**PoC feasibility 未驗證**——驗收標準見 [plans/EXP-001.md](plans/EXP-001.md) 的 golden sample 協議。「能輸出 MP4」「能輸出 55 秒」「能穩定量產商用品質」是三件不同的事。
+- 整體狀態：**PoC feasibility 未驗證**——驗收標準見 [plans/EXP-001.md](plans/EXP-001.md) 的 PoC reference sample 協議。「能輸出 MP4」「能輸出 55 秒」「能穩定量產商用品質」是三件不同的事。
