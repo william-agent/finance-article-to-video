@@ -182,9 +182,10 @@ HyperFrames vs Remotion 的選型傾向：HyperFrames（HTML、無建置步驟�
 
 另一條待評估支線：HyperFrames 母公司 HeyGen 的數位人——「AI 財經主播」固定臉孔的頻道識別度，faceless 做不到。
 
-## 環境現況（機器已就緒的部分)
+## 環境現況（已安裝 ≠ 產線就緒）
 
-- yt-dlp（`~/.venvs/yt-dlp`，YouTube 內容研究用）、FFmpeg、Node.js、Python 3.14
-- 本地 faster-whisper STT（影片轉錄）
-- HyperFrames 原始碼已研究（v0.7.109，開發極活躍，昨日兩個 release）
-- cmnews 爬蟲已驗證可行
+- 已安裝並各自單獨用過：yt-dlp（`~/.venvs/yt-dlp`）、FFmpeg、Node.js 24、Python 3.14、本地 faster-whisper STT
+- HyperFrames 原始碼已研究（v0.7.109）；**渲染管線在本機未實測**
+- cmnews 爬蟲已驗證可行（抓取層而已）
+- 本機無 GPU（無 NVIDIA 驅動/裝置）→ 本地 ComfyUI 線不可行
+- 整體狀態：**PoC feasibility 未驗證**——驗收標準見 [plans/EXP-001.md](plans/EXP-001.md) 的 golden sample 協議。「能輸出 MP4」「能輸出 55 秒」「能穩定量產商用品質」是三件不同的事。
